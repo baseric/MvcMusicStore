@@ -10,7 +10,7 @@ namespace MvcMusicStore.Controllers
     {
         public ActionResult Index()
         {
-            ViewBag.Message = "I like cake and beer!";
+            ViewBag.Message = "I like cake!";
 
             return View();
         }
