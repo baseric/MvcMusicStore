@@ -10,7 +10,7 @@ namespace MvcMusicStore.Controllers
     {
         public ActionResult Index()
         {
-            ViewBag.Message = "I like cake! I'm wondering if this will be picked up by Git for Windows";
+            ViewBag.Message = "I like cake!";
 
             return View();
         }
