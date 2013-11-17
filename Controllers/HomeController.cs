@@ -28,5 +28,16 @@ namespace MvcMusicStore.Controllers
 
             return View();
         }
+
+        public ActionResult Edit()
+        {        
+            return View();
+        }
+
+        public ActionResult Sample()
+        {
+            ViewBag.Message = "Hello World. Welcome to ASP.NET MVC!";
+            return View("Sample");
+        }
     }
 }
